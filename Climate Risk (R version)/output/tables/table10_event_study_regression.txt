@@ -1,0 +1,41 @@
+                             m_event
+Dependent Var.:     log_realized_vol
+                                    
+D_k_lead3                 -0.0184   
+                          (0.0186)  
+D_k_lead2                 -0.0116   
+                          (0.0181)  
+D_k_lead1                 -0.0136   
+                          (0.0187)  
+D_k_0                     -0.0399   
+                          (0.0209)  
+D_k_lag1                  -0.0346   
+                          (0.0199)  
+D_k_lag2                  -0.0175   
+                          (0.0202)  
+D_k_lag3                  -0.0184   
+                          (0.0181)  
+D_k_lag4                  -0.0228   
+                          (0.0200)  
+D_k_lag5                   0.0095   
+                          (0.0207)  
+D_k_lag6                   0.0358   
+                          (0.0220)  
+fx_depreciation_pct        0.0087   
+                          (0.0055)  
+gdp_growth                -0.0095   
+                          (0.0065)  
+inflation                  0.0320***
+                          (0.0086)  
+credit_gdp                -0.0038*  
+                          (0.0015)  
+Fixed-Effects:      ----------------
+country                          Yes
+ym                               Yes
+___________________ ________________
+S.E. type           Dris.-Kra. (L=3)
+Observations                   1,001
+R2                           0.70669
+Within R2                    0.09337
+---
+Signif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1

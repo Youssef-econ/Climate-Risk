@@ -1,0 +1,24 @@
+                                   m2           m2_cluster
+                    Driscoll-Kraay SE Country-clustered SE
+Dependent Var.:      log_realized_vol     log_realized_vol
+                                                          
+disaster_dummy             -0.0498*               -0.0498*
+                           (0.0229)               (0.0188)
+fx_depreciation_pct         0.0094                 0.0094*
+                           (0.0055)               (0.0033)
+gdp_growth                 -0.0117                -0.0117 
+                           (0.0059)               (0.0080)
+inflation                   0.0319***              0.0319*
+                           (0.0079)               (0.0115)
+credit_gdp                 -0.0036*               -0.0036 
+                           (0.0015)               (0.0025)
+Fixed-Effects:       ----------------     ----------------
+country                           Yes                  Yes
+ym                                Yes                  Yes
+___________________  ________________     ________________
+S.E. type            Dris.-Kra. (L=3)          by: country
+Observations                    1,050                1,050
+R2                            0.69594              0.69594
+Within R2                     0.07277              0.07277
+---
+Signif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1

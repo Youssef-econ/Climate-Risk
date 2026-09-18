@@ -1,0 +1,87 @@
+                                        m1               m2               m3               m4
+                        Dummy, no controls Dummy (baseline)      Event count    Severity (H2)
+Dependent Var.:           log_realized_vol log_realized_vol log_realized_vol log_realized_vol
+                                                                                             
+disaster_dummy                    -0.0529*       -0.0498*                                    
+                                  (0.0229)       (0.0229)                                    
+fx_depreciation_pct                               0.0094           0.0094           0.0088   
+                                                 (0.0055)         (0.0055)         (0.0056)  
+gdp_growth                                       -0.0117          -0.0121*         -0.0128*  
+                                                 (0.0059)         (0.0060)         (0.0061)  
+inflation                                         0.0319***        0.0312***        0.0322***
+                                                 (0.0079)         (0.0080)         (0.0079)  
+credit_gdp                                       -0.0036*         -0.0036*         -0.0035*  
+                                                 (0.0015)         (0.0015)         (0.0015)  
+disaster_count                                                    -0.0277*                   
+                                                                  (0.0123)                   
+people_affected_pct_pop                                                             0.0094   
+                                                                                   (0.0074)  
+damage_pct_gdp                                                                     -0.0294   
+                                                                                   (0.0330)  
+n_flood                                                                                      
+                                                                                             
+n_storm                                                                                      
+                                                                                             
+n_drought                                                                                    
+                                                                                             
+n_wildfire                                                                                   
+                                                                                             
+n_extreme_temp                                                                               
+                                                                                             
+n_mass_movement_wet                                                                          
+                                                                                             
+disaster_dummy_noMMW                                                                         
+                                                                                             
+Fixed-Effects:            ---------------- ---------------- ---------------- ----------------
+country                                Yes              Yes              Yes              Yes
+ym                                     Yes              Yes              Yes              Yes
+_______________________   ________________ ________________ ________________ ________________
+S.E. type                 Dris.-Kra. (L=3) Dris.-Kra. (L=3) Dris.-Kra. (L=3) Dris.-Kra. (L=3)
+Observations                         1,055            1,050            1,050            1,050
+R2                                 0.67513          0.69594          0.69690          0.69364
+Within R2                          0.01058          0.07277          0.07570          0.06577
+
+                                        m5                  m6
+                        Disaster type (H4) Excl. mass movement
+Dependent Var.:           log_realized_vol    log_realized_vol
+                                                              
+disaster_dummy                                                
+                                                              
+fx_depreciation_pct              0.0091              0.0094   
+                                (0.0056)            (0.0055)  
+gdp_growth                      -0.0123*            -0.0120*  
+                                (0.0061)            (0.0060)  
+inflation                        0.0311***           0.0318***
+                                (0.0080)            (0.0080)  
+credit_gdp                      -0.0036*            -0.0036*  
+                                (0.0015)            (0.0015)  
+disaster_count                                                
+                                                              
+people_affected_pct_pop                                       
+                                                              
+damage_pct_gdp                                                
+                                                              
+n_flood                         -0.0360*                      
+                                (0.0171)                      
+n_storm                         -0.0212                       
+                                (0.0187)                      
+n_drought                       -0.0257                       
+                                (0.0781)                      
+n_wildfire                       0.0922                       
+                                (0.0612)                      
+n_extreme_temp                   0.0399                       
+                                (0.0563)                      
+n_mass_movement_wet             -0.0312                       
+                                (0.0399)                      
+disaster_dummy_noMMW                                -0.0413   
+                                                    (0.0225)  
+Fixed-Effects:            ----------------    ----------------
+country                                Yes                 Yes
+ym                                     Yes                 Yes
+_______________________   ________________    ________________
+S.E. type                 Dris.-Kra. (L=3)    Dris.-Kra. (L=3)
+Observations                         1,050               1,050
+R2                                 0.69874             0.69501
+Within R2                          0.08131             0.06995
+---
+Signif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1

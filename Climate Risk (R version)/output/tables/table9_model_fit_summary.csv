@@ -1,0 +1,7 @@
+model,n_obs,within_r2
+"M1: dummy, no controls",1055,0.010584174150576109
+M2: dummy + controls (baseline),1050,0.07276774054731316
+M3: event count,1050,0.07569819198084249
+M4: severity (H2),1050,0.06576835406168025
+M5: disaster type (H4),1050,0.08131162036325534
+M6: excl. mass movement,1050,0.06994933166681838
