@@ -152,3 +152,6 @@ Population exposure:
 Economic-damage exposure:
 
 `damage_pct_gdp = 100 × (economic_damage_000usd × 1000) / gdp_current_usd`
+
+## Data extraction dates
+The precise original download dates were not systematically recorded during initial data collection. To ensure reproducibility, all raw files used to generate the reported estimates are archived unchanged in data/raw/. The EM-DAT extract contains records updated through at least 17 July 2026. Yahoo Finance and World Bank WDI analyses rely on the archived files included in this repository rather than live API queries.
